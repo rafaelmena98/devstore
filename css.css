@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    color: antiquewhite;
+}
+
+#titulo {
+    margin-top: 10px;
+}
+
+#titulo h1 {
+    background-color: slategray;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 60px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    background-color: darkgray;
+    color: black;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+main {
+    padding-bottom: 200px;
+}
+
+div#prendas {
+    background-color: lightslategray;
+    border: solid;
+    position: absolute;
+    padding: 20px;
+    top: 125px;
+    width: 25%;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#prendas>p {
+    padding-left: 30px;
+}
+
+#opciones {
+    background-color: slategray;    
+    top: 125px;
+    left: 30%;
+    right: 10%;
+    position: absolute;
+    width: 68%;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100vh - 170px);
+}
+
+#opciones p {
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 820px;
+    font-size: 25px;
+}
+
+#broma {
+    font-size: 15px;
+}
+
+.images{
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.img-wrap{
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 5px;
+}
+
